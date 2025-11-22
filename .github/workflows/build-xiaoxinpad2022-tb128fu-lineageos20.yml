@@ -12,10 +12,10 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
-  KERNEL_SOURCE : "https://github.com/lenovo-sm6225-devs/android_kernel/"
+  KERNEL_SOURCE : "https://github.com/lenovo-sm6225-devs/android_kernel.git"
   KERNEL_BRANCH : "lineage-20.0"
 
-  CLANG_SOURCE : "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b"
+  CLANG_SOURCE : "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b.git"
   CLANG_BRANCH : "lineage-20.0"
 
   GCC_GNU : false
