@@ -1,4 +1,4 @@
-name: Build Sample YAML
+name: Build TB128FU YAML
 
 on:
   workflow_call:
@@ -33,7 +33,7 @@ env:
   KERNELSU_BRANCH : "v0.9.5"
 
   KERNELSU_AUTO_GET : "true" # if u want easy setting kernelsu, u can true.
-  KERNELSU_AUTO_FORK : "" # magic, rsuntk, next, wild, jingmatrix and sukisu
+  KERNELSU_AUTO_FORK : "sukisu" # magic, rsuntk, next, wild, jingmatrix and sukisu
 
   SUSFS_ENABLE : false
   SUSFS_FIXED : true
